@@ -1,8 +1,7 @@
-package com.example.fordlabs.weatherapp;
+package com.example.fordlabs.weatherapp.model;
 
 import com.google.gson.annotations.SerializedName;
 
-import java.io.Serializable;
 import java.util.List;
 
 public class WeatherResponse{

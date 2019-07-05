@@ -1,4 +1,4 @@
-package com.example.fordlabs.weatherapp;
+package com.example.fordlabs.weatherapp.network;
 
 import java.io.IOException;
 

@@ -1,15 +1,19 @@
-package com.example.fordlabs.weatherapp;
+package com.example.fordlabs.weatherapp.activity;
 
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
 
-import com.example.fordlabs.weatherapp.databinding.ViewpagerItemBinding2;
+import com.example.fordlabs.weatherapp.R;
+import com.example.fordlabs.weatherapp.adapter.MyPagerAdapter;
+import com.example.fordlabs.weatherapp.model.WeatherResponse;
+import com.example.fordlabs.weatherapp.network.ApiClient;
+import com.example.fordlabs.weatherapp.network.ApiInterface;
 
 import java.util.ArrayList;
+
 
 import retrofit2.Call;
 import retrofit2.Callback;
