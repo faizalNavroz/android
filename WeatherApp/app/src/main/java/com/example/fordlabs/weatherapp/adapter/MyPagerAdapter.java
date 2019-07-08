@@ -17,7 +17,7 @@ import com.example.fordlabs.weatherapp.dto.WeatherResponseDto;
 import com.example.fordlabs.weatherapp.model.Main;
 import com.example.fordlabs.weatherapp.model.Weather;
 import com.example.fordlabs.weatherapp.model.WeatherResponse;
-//
+
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
@@ -47,8 +47,7 @@ public class MyPagerAdapter extends PagerAdapter {
         return view == ((RelativeLayout) object);
     }
 
-    public
-    MyPagerAdapter(Context context, String []rank, ArrayList<WeatherResponse> weatherResponseList) {
+    public MyPagerAdapter(Context context, String []rank, ArrayList<WeatherResponse> weatherResponseList) {
         this.weatherResponseList = weatherResponseList;
         this.rank=rank;
         this.context = context;
@@ -66,7 +65,7 @@ public class MyPagerAdapter extends PagerAdapter {
         TextView pressure;
 
 
-       //ViewpagerItemBinding2 activityMainBinding = DataBindingUtil.setContentView(this, R.layout.viewpager_item);
+
         /* View itemView = inflater.inflate(R.layout.viewpager_item, container,
                 false);*/
 

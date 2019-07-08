@@ -8,6 +8,10 @@ import com.example.fordlabs.weatherapp.dto.WeatherResponseDto;
 
 public class WeatherViewModel extends BaseObservable {
 
+
+
+
+
     private WeatherResponseDto weatherResponseDto;
 
 
